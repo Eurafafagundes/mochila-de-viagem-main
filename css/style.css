@@ -29,13 +29,13 @@ html {
     max-width: 170px;
     height: 180px;
     padding-top: 80px;
-    background-color: #d84736;
-    box-shadow: inset 0 6px 0 2px #e64a3e, 0 -93px 0 -77px #3b1045, 0 -93px 0 -72px #d84736, 0 -93px 0 -68px #3b1045;
-    background-image: linear-gradient(to right, transparent 5px, transparent 20px, transparent 1px, transparent 25px, transparent 5px, transparent 20px, transparent 20px, transparent 86px, #c1382e 45px, #c1382e 230px, transparent 25px, transparent 172px);
+    background-color: #E0C3FC;
+    box-shadow: inset 0 6px 0 2px #E0C3FC, 0 -93px 0 -77px #0093E9, 0 -93px 0 -72px #E0C3FC, 0 -93px 0 -68px #0093E9;
+    background-image: linear-gradient(to right, transparent 5px, transparent 20px, transparent 1px, transparent 25px, transparent 5px, transparent 20px, transparent 20px, transparent 86px, #E0C3FC 45px, #E0C3FC 230px, transparent 25px, transparent 172px);
     background-position: center 254px;
     background-size: 305px 6px;
     background-repeat: repeat-x;
-    border: 5px solid #410c38;
+    border: 5px solid #0093E9;
     border-radius: 85px 85px 44px 44px;
     display: inline-block;
     vertical-align: top;
@@ -53,12 +53,12 @@ html {
 .mochila:before {
     height: 75px;
     width: 118px;
-    background-image: radial-gradient(circle closest-corner at 13px 29px, #af342c, #af342c 2px, transparent 2px, transparent), radial-gradient(circle closest-corner at 13px 29px, #491033, #491033 4px, transparent 4px, transparent), linear-gradient(to bottom, transparent 10px, transparent 15px, #491033 5px, #491033 18px, transparent 18px, transparent 100px), linear-gradient(to right, #af342c 10px, #af342c 10px, transparent 10px, transparent 16px, #af342c 9px, #af342c 50px), linear-gradient(to bottom, #af342c 8px, #af342c 16px, #491033 8px, #491033 30px, #af342c 20px, #af342c 72px, #af342c 10px, #af342c 57px, #af342c 5%);
+    background-image: radial-gradient(circle closest-corner at 13px 29px, #8EC5FC, #8EC5FC 2px, transparent 2px, transparent), radial-gradient(circle closest-corner at 13px 29px, #491033, #491033 4px, transparent 4px, transparent), linear-gradient(to bottom, transparent 10px, transparent 15px, #8EC5FC 5px, #8EC5FC 18px, transparent 18px, transparent 100px), linear-gradient(to right, #8EC5FC 10px, #8EC5FC 10px, transparent 10px, transparent 16px, #8EC5FC 9px, #8EC5FC 50px), linear-gradient(to bottom, #8EC5FC 8px, #8EC5FC 16px, #491033 8px, #491033 30px, #8EC5FC 20px, #8EC5FC 72px, #8EC5FC 10px, #8EC5FC 57px, #8EC5FC 5%);
     margin-left: 22px;
     margin-top: 58px;
     border: 4px solid #491033;
     border-radius: 11px;
-    box-shadow: 0 4px 0 0 #c1382e, inset 0px 4px 1px 0 #c03527;
+    box-shadow: 0 4px 0 0 #80D0C7, inset 0px 4px 1px 0 #80D0C7;
     content: '||';
     color: transparent;
     font-family: Comic Sans MS;
