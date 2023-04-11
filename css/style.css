@@ -12,6 +12,11 @@ html {
     gap: 2em;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .principal {
     flex-grow: 1;
     flex-basis: auto;
@@ -130,6 +135,13 @@ html {
     height: 40px;
     Background: #80D0C7;
     font-weight: 400;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+	width:100%;
+    flex-direction: column;
+  }
 }
 
 
