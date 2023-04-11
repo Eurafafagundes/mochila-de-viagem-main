@@ -18,7 +18,7 @@ html {
 }
 
 .principal {
-     display: flex;
+
     flex-grow: 1;
     flex-basis: auto;
     min-width: 600px;
@@ -31,7 +31,7 @@ html {
 }
 
 .mochila {
-     display: flex;
+  
     min-width: 170px;
     max-width: 170px;
     height: 180px;
@@ -52,7 +52,7 @@ html {
 
 .mochila:before,
 .mochila:after {
-     display: flex;
+     
     display: block;
     content: '';
     position: absolute;
@@ -60,7 +60,7 @@ html {
 }
 
 .mochila:before {
-     display: flex;
+     
     height: 75px;
     width: 118px;
     background-image: radial-gradient(circle closest-corner at 13px 29px, #8EC5FC, #8EC5FC 2px, transparent 2px, transparent), radial-gradient(circle closest-corner at 13px 29px, #491033, #491033 4px, transparent 4px, transparent), linear-gradient(to bottom, transparent 10px, transparent 15px, #8EC5FC 5px, #8EC5FC 18px, transparent 18px, transparent 100px), linear-gradient(to right, #8EC5FC 10px, #8EC5FC 10px, transparent 10px, transparent 16px, #8EC5FC 9px, #8EC5FC 50px), linear-gradient(to bottom, #8EC5FC 8px, #8EC5FC 16px, #491033 8px, #491033 30px, #8EC5FC 20px, #8EC5FC 72px, #8EC5FC 10px, #8EC5FC 57px, #8EC5FC 5%);
@@ -79,7 +79,7 @@ html {
 }
 
 .mochila:after {
-     display: flex;
+    
     margin-left: 67px;
     margin-top: -30px;
     background: #80D0C7;
@@ -91,12 +91,12 @@ html {
 }
 
 .adicionar {
-     display: flex;
+    
     width: 100%;
 }
 
 .adicionar input {
-     display: flex;
+     
     width: 100%;
     box-sizing: border-box;
     margin: 0.5em 0 1em;
@@ -106,12 +106,12 @@ html {
 }
 
 .adicionar label {
-    display: flex;
+    
     display: block;
 }
 
 .cadastrar {
-    display: flex;
+     display: flex;
     background-color: #0093E9;
     color: #FFFFFF;
     cursor: pointer;
