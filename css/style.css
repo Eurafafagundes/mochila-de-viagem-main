@@ -132,8 +132,9 @@ html {
     font-weight: 400;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   .flex-container {
+	width:100%;
     flex-direction: column;
   }
 }
