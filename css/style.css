@@ -149,9 +149,51 @@ html {
     font-weight: 400;
 }
 
-@media (max-width: 800px) {
-  .flex-container {
-	width:100%;
-    flex-direction: column;
-  }
+/* estilo para telas pequenas */
+@media only screen and (max-width: 600px) {
+.conteudo {
+flex-direction: column;
+padding: 10vh 1em;
 }
+
+.mochila {
+min-width: 100%;
+max-width: 100%;
+height: 120px;
+padding-top: 40px;
+margin-bottom: 1em;
+}
+
+.principal {
+min-width: auto;
+padding: 2em 1em;
+border-radius: 0;
+gap: 1em;
+}
+
+.adicionar input {
+font-size: 14px;
+}
+
+.cadastrar {
+flex-direction: column;
+align-items: center;
+}
+}
+
+/* estilo para telas médias */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+.conteudo {
+gap: 1em;
+}
+
+.mochila {
+height: 150px;
+padding-top: 60px;
+}
+
+.adicionar input {
+font-size: 16px;
+}
+}
+
